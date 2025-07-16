@@ -28,7 +28,7 @@ public struct AutosizingList<Content: View>: View {
         .introspect(.list, on: .iOS(.v15)) { tableView in
             introspectScrollView(tableView)
         }
-        .introspect(.list, on: .iOS(.v16, .v17, .v18)) { collectionView in
+        .introspect(.list, on: .iOS(.v16, .v17, .v18, .v26)) { collectionView in
             introspectScrollView(collectionView)
         }
         .frame(height: tableContentHeight)
